@@ -6,9 +6,9 @@
 **ResetInterval** время сброса поста для повторного использования, по умолчанию 365 дней.\
 В **RandomAscDsc** выбирается порядок в котором будут забираться посты из базы данных.
 ```
-Random - случайный\
-Asc - от первого к последнему\
-Dsc - от последнего к первому\
+Random - случайный
+Asc - от первого к последнему
+Dsc - от последнего к первому
 ```
 **IsReusable** Возможность повторного использования цитаты (true или false). Если true, то **RandomAscDsc** == Random.\
 **RandomDelay:** Задержка перед публикацией случайной цитаты в минутах. По умолчанию одна минута, максимум 720 минут.
@@ -50,12 +50,12 @@ Dsc - от последнего к первому\
 
 #### Пример:
 ```
-PostTime: 1-59 * * * *\
-ResetInterval: 1\
-RandomAscDsc: Asc\
-IsReusable: false\
-Destination: @group\
-RandomDelay: 1\
+PostTime: 1-59 * * * *
+ResetInterval: 1
+RandomAscDsc: Asc
+IsReusable: false
+Destination: @group
+RandomDelay: 1
 ```
 
 # Загрузка постов в базу данных
@@ -63,8 +63,8 @@ RandomDelay: 1\
 После команды **/adddata** бот попросит ввести посты в формате **pipe delimited CSV**. Каждая запись начинается с новой строки, и записывается в таком виде **Author|Text** . До и после | пробел не ставится.
 #### Пример ввода информации:
 ```
-Albert Einstein|Imagination is more important than knowledge.\
-Winston Churchill|Success is not final, failure is not fatal: It is the courage to continue that counts.\
-Eleanor Roosevelt|No one can make you feel inferior without your consent.\
-Nelson Mandela|Education is the most powerful weapon which you can use to change the world.\
+Albert Einstein|Imagination is more important than knowledge.
+Winston Churchill|Success is not final, failure is not fatal: It is the courage to continue that counts.
+Eleanor Roosevelt|No one can make you feel inferior without your consent.
+Nelson Mandela|Education is the most powerful weapon which you can use to change the world.
 ```
