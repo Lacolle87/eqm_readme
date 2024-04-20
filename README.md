@@ -27,7 +27,7 @@ Dsc - от последнего к первому\
 **/reset:** Сбросить статус цитаты. Можно указать ID цитаты или ввести all для сброса всех цитат.
 ### Управление конфигурацией
 **/getconfig:** Получить текущие настройки конфигурации.\
-**/setconfig:** Установить или изменить настройки конфигурации.\
+**/setconfig:** Установить или изменить настройки конфигурации.
 ### Управление администраторами
 **/addadmin:** Добавить нового администратора бота.\
 **/getadmin:** Получить список текущих администраторов бота.\
@@ -62,7 +62,7 @@ RandomDelay: 1\
 
 После команды **/adddata** бот попросит ввести посты в формате **pipe delimited CSV**. Каждая запись начинается с новой строки, и записывается в таком виде **Author|Text** . До и после | пробел не ставится.
 #### Пример ввода информации:
-'''bash
+'''
 Albert Einstein|Imagination is more important than knowledge.\
 Winston Churchill|Success is not final, failure is not fatal: It is the courage to continue that counts.\
 Eleanor Roosevelt|No one can make you feel inferior without your consent.\
